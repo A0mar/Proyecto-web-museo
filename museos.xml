@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autores: Omar Alonso, Ignacio Rodriguez y Joaquin Camps-->
+<?xml-stylesheet type="text/xsl" href="museos.xsl"?>
+<obrasArte>
+	<museos>
+		<museo idmus="M1254">
+			<nombre>Museo del Prado</nombre>
+			<localidad>Madrid</localidad>
+			<fechaEdificación>1819</fechaEdificación>
+			<horario>10:00-20:00</horario>
+		</museo>
+		<museo idmus="M6254">
+			<nombre>Museo Nacional Centro de Arte Reina Sofia</nombre>
+			<localidad>Madrid</localidad>
+			<fechaEdificación>1992</fechaEdificación>
+			<horario>10:00-21:00</horario>
+		</museo>
+		<museo idmus="M4893">
+			<nombre>Guggenheim</nombre>
+			<localidad>Bilbao</localidad>
+			<fechaEdificación>1997</fechaEdificación>
+			<horario>10:00-19:00</horario>
+		</museo>
+	</museos>
+	<obras>
+		<obra idObr="O6535">
+			<titulo>Las Meninas</titulo>
+			<autor>Diego Velázquez</autor>
+			<fecha>1656</fecha>
+			<periodo>Barroco</periodo>
+			<generos>
+				<genero>Retrato</genero>
+				<genero>Pintura de historia</genero>
+				<genero>Escena de género</genero>
+			</generos>
+		</obra>
+		<obra idObr="O7823">
+			<titulo>La Rendicion de Breda</titulo>
+			<autor>Diego Velázquez</autor>
+			<fecha>1635</fecha>
+			<periodo>Barroco</periodo>
+			<generos>
+				<genero>Pintura de historia</genero>
+			</generos>
+		</obra>
+		<obra idObr="O0438">
+			<titulo>Vieja Friendo Huevos</titulo>
+			<autor>Diego Velázquez</autor>
+			<fecha>1618</fecha>
+			<periodo>Barroco</periodo>
+			<generos>
+				<genero>Pintura de género</genero>
+				<genero>Escena de género</genero>
+			</generos>
+		</obra>
+		<obra idObr="O9834">
+			<titulo>Guernica</titulo>
+			<autor>Pablo Picasso</autor>
+			<fecha>1937</fecha>
+			<periodo>Cubismo</periodo>
+			<generos>
+				<genero>Pintura de historia</genero>
+			</generos>
+		</obra>
+		<obra idObr="O6736">
+			<titulo>La Mujer Que Llora</titulo>
+			<autor>Pablo Picasso</autor>
+			<fecha>1937</fecha>
+			<periodo>Cubismo</periodo>
+			<generos>
+				<genero>Retrato</genero>
+				<genero>Sufrimiento</genero>
+			</generos>
+		</obra>
+		<obra idObr="O0945">
+			<titulo>La persistencia de la Memoria</titulo>
+			<autor>Salvador Dalí</autor>
+			<fecha>1931</fecha>
+			<periodo>Surrealismo</periodo>
+			<generos>
+				<genero>Alegoría</genero>
+			</generos>
+		</obra>
+		<obra idObr="O9872">
+			<titulo>El Gran Masturbador</titulo>
+			<autor>Salvador Dalí</autor>
+			<fecha>1929</fecha>
+			<periodo>Surrealismo</periodo>
+			<generos>
+			</generos>
+		</obra>
+		<obra idObr="O7235">
+			<titulo>3 de mayo</titulo>
+			<autor>Francico de Goya</autor>
+			<fecha>1814</fecha>
+			<periodo>Romanticismo</periodo>
+			<generos>
+				<genero>Dramatismo</genero>
+				<genero>Individualismo</genero>
+				<genero>Libertad</genero>
+			</generos>
+		</obra>
+		<obra idObr="O0345">
+			<titulo>La Pradera de San Isidro</titulo>
+			<autor>Francisco de Goya</autor>
+			<fecha>1788</fecha>
+			<periodo>Rococo tardio</periodo>
+			<generos>
+				<genero>Paisaje</genero>
+				<genero>Tradicion</genero>
+				<genero>Festividad</genero>
+			</generos>
+		</obra>
+		<obra idObr="O1056">
+			<titulo>Paseo a orillas del mar</titulo>
+			<autor>Joaquin Sorolla Bastida</autor>
+			<fecha>1909</fecha>
+			<periodo>Impresionismo</periodo>
+			<generos>
+				<genero>Paisaje</genero>
+				<genero>Pintura de genero</genero>
+				<genero>Escena de género</genero>
+			</generos>
+		</obra>
+	</obras>
+	<exposiciones>
+		<exposicion>
+			<obras>
+				<obra idObr="O6535"></obra>
+				<obra idObr="O6736"></obra>
+				<obra idObr="O0438"></obra>
+				<obra idObr="O0345"></obra>
+			</obras>
+			<museo idMus="M1254"></museo>
+			<fechas>
+				<inicio>25/09/2023</inicio>
+				<fin>25/12/2023</fin>
+			</fechas>
+			<horario>9:00-18:00</horario>
+		</exposicion>
+		<exposicion>
+			<obras>
+				<obra idObr="O0945"></obra>
+				<obra idObr="O9872"></obra>
+				<obra idObr="O7235"></obra>
+			</obras>
+			<museo idMus="M6254"></museo>
+			<fechas>
+				<inicio>12/02/2024</inicio>
+				<fin>11/10/2024</fin>
+			</fechas>
+			<horario>8:20-19:00</horario>
+		</exposicion>
+		<exposicion>
+			<obras>
+				<obra idObr="O9834"></obra>
+				<obra idObr="O6535"></obra>
+				<obra idObr="O1056"></obra>
+			</obras>
+			<museo idMus="M4893"></museo>
+			<fechas>
+				<inicio>21/01/2024</inicio>
+				<fin>30/05/2024</fin>
+			</fechas>
+			<horario>12:00-23:00</horario>
+		</exposicion>
+	</exposiciones>
+</obrasArte>

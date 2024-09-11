@@ -1,0 +1,27 @@
+/* Autores: Omar Alonso, Ignacio Rodriguez y Joaquin Camps*/
+
+body {
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: cadetblue;
+}
+
+li,ul { 
+    text-align: center;
+    font-style: italic;
+    list-style-type: none;
+}
+
+p{text-align: center;
+    font-weight: bold;
+}
+
